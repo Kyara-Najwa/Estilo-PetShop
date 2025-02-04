@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .product-detail {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 100px;
+  }
+  
+  .product-image img {
+    width: 400px;
+    border-radius: 8px;
+    /* border: solid rgba(58, 58, 58, 0.326); */
+  }
+  
+  .product-variation img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: solid rgba(0, 0, 0, 0.483);
+  }
+  
+  .product-info {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .product-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .product-price {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #FF5722;
+    margin: 10px 0;
+  }
+  
+  .product-rating {
+    margin: 10px 0;
+  }
+
+  .product-rating .rate{
+    font-size: 2rem;
+    color: yellow;
+  }
+  
+  .product-size,
+  .product-quantity {
+    margin: 20px 0;
+  }
+  
+  .size-label{
+    margin-right: 10px; /* Memberikan jarak antara label dan dropdown */
+    font-size: 1rem; /* Ukuran font untuk label */
+    font-weight: bold; /* Opsional, jika ingin label lebih mencolok */
+  }
+
+  .size-select {
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none; /* Menghapus caret bawaan browser */
+    background: none; /* Menghapus caret */
+    position: relative;
+  }
+  
+  .product-quantity {
+    display: flex;
+    align-items: center; /* Agar label dan input sejajar horizontal */
+    margin: 20px 0; /* Memberikan jarak antar elemen vertikal */
+  }
+  
+  .quantity-label {
+    margin-right: 10px; /* Memberikan jarak antara label dan input */
+    font-size: 1rem; /* Ukuran font untuk label */
+    font-weight: bold; /* Opsional, untuk menonjolkan label */
+  }
+  
+  .quantity-input {
+    padding: 5px 10px; /* Memberikan ruang di dalam input */
+    font-size: 1rem; /* Menyamakan ukuran font dengan label */
+    width: 60px; /* Menentukan lebar input */
+    border: 1px solid #ccc; /* Memberikan garis batas pada input */
+    border-radius: 5px; /* Memberikan efek membulat pada input */
+  }
+  
+
+  .product-buttons {
+    margin: 20px 0;
+  }
+  
+  .product-buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart {
+    background-color: #c33225;
+    color: white;
+  }
+  
+  .order-now {
+    background-color: #FF5722;
+    color: white;
+  }
+  .rate {
+    color: yellow;
+  }
+

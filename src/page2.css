@@ -1,0 +1,115 @@
+/* page2.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff7e9;  /* Warna latar belakang yang lebih senada dengan index.css */
+}
+
+.login-box {
+  background-color: #f1debb;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  text-align: center;
+  border: 1px solid #ddd; /* Border lembut */
+  width: 100%;  /* Memastikan lebar login-box responsif */
+}
+
+.login-header h2 {
+  color: #741012;  /* Sesuaikan dengan warna merah di index.css */
+  font-weight: bolder;
+  font-size: 1.5rem;  /* Ukuran font standar untuk h2 */
+}
+
+.login-header p {
+  color: #741012;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  display: block;
+  color: #741012; 
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff7e9;
+}
+
+.login-button {
+  background-color: #741012;  /* Gunakan warna merah dari index.css */
+  color: #ffffff;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #c33225;  /* Sedikit lebih terang saat hover */
+}
+
+.login-footer {
+  margin-top: 1rem;
+}
+
+.login-footer a {
+  color: #741012;  /* Sesuaikan dengan warna merah di index.css */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-footer a:hover {
+  color: #c33225; /* Warna lebih terang saat hover */
+}
+
+/* Media Query untuk layar lebih kecil (Mobile) */
+@media (max-width: 768px) {
+  .login-box {
+    padding: 1.5rem;
+    width: 90%;  /* Mengurangi lebar untuk ponsel */
+    max-width: 350px;  /* Membatasi lebar maksimal */
+  }
+
+  .login-header h2 {
+    font-size: 1.3rem;  /* Mengurangi ukuran font pada ponsel */
+  }
+
+  .form-group input {
+    padding: 0.8rem;  /* Menambah padding untuk kenyamanan mengetik */
+  }
+
+  .login-button {
+    padding: 0.8rem 1rem;  /* Menyesuaikan ukuran tombol pada layar kecil */
+    font-size: 1.1rem;
+  }
+}
+
+/* Media Query untuk tablet atau perangkat dengan layar lebih besar */
+@media (max-width: 1024px) {
+  .login-box {
+    padding: 1.8rem;
+    width: 80%;  /* Menyesuaikan lebar agar tetap nyaman dilihat */
+    max-width: 400px;
+  }
+
+  .login-header h2 {
+    font-size: 1.4rem;  /* Sedikit mengecilkan ukuran font */
+  }
+}
